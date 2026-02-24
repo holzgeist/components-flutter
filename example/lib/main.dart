@@ -186,6 +186,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                           padding: const EdgeInsets.all(2.0),
                                           child: Stack(
                                             children: [
+                                              Container(color: Colors.red),
                                               /// video track widget in the background
                                               identifier.isAudio && roomCtx.enableAudioVisulizer
                                                   ? const AudioVisualizerWidget(

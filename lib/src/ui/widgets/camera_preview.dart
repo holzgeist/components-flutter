@@ -33,7 +33,7 @@ class CameraPreviewWidget extends StatelessWidget {
     return Container(
       width: 360,
       height: 240,
-      color: LKColors.lkDarkBlue,
+      color: Colors.red,
       child: Center(
         child: track != null
             ? VideoTrackRenderer(track!)
